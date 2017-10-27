@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>r/NBA Scrape</title>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper red accent-4 ">
+     	<a class="brand-logo center">r/NBA Scraper</a>
+		<ul class="right hide-on-med-and-down">
+        	<li><a id="signin" class="waves-effect waves-light  modal-trigger" href="#signinModal">Sign In</a></li>
+			<!-- Modal Structure -->
+  			<div id="signinModal" class="modal blue darken-4">
+    			<div class="modal-content">
+					<h1>Sign In</h1>
+					<div class="row">
+						<form class="col s12">
+							<div class="row">
+								<div class="input-field col s12">
+									<input placeholder="Username" id="username" type="text" class="validate">
+								</div>
+							</div>
+							<div class="row">
+        						<div class="input-field col s12">
+          							<input placeholder="Password" id="password" type="password" class="validate">	
+        						</div>
+      						</div>
+							<button class="red accent-4 btn waves-effect waves-light" type="submit" name="action">Submit
+								<i class="material-icons right">send</i>
+  							</button>
+							
+						</form>
+					</div>
+    			</div>
+    			<div class="modal-footer">
+      				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    			</div>
+  			</div>
+			
+			<li><a id="signup" class="waves-effect waves-light  modal-trigger" href="#signupModal">Sign Up</a></li>
+			<!-- Modal Structure -->
+  			<div id="signupModal" class="modal blue darken-4">
+    			<div class="modal-content">
+					<h1>Sign Up</h1>
+					<div class="row">
+						<form class="col s12">
+							<div class="row">
+								<div class="input-field col s12">
+									<input placeholder="Username" id="username" type="text" class="validate">
+								</div>
+							</div>
+							<div class="row">
+        						<div class="input-field col s12">
+          							<input placeholder="Password" id="password" type="password" class="validate">	
+        						</div>
+      						</div>
+							<button class="red accent-4 btn waves-effect waves-light" type="submit" name="action">Submit
+								<i class="material-icons right">send</i>
+  							</button>
+							
+						</form>
+					</div>
+    			</div>
+    		<div class="modal-footer">
+      			<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    		</div>
+  			</div>
+			
+			<li><a id="signout" href="#">Sign Out</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+	<div class="row">
+        <div class="col s12">
+        	<div class="card blue darken-4">
+            	<div class="card-content white-text">
+              		<span class="card-title">Post Title</span>
+					<p>Summary: </p>
+					<br>
+              		<p>Link: </p>
+            	</div>
+            	<div class="card-action">
+              		<a href="#">Comment</a>
+              
+            	</div>
+			</div>
+       </div>
+   </div>
+	
+	<div class="row">
+        <div class="col s12">
+        	<div class="card blue darken-4">
+            	<div class="card-content white-text">
+              		<span class="card-title">Post Title</span>
+					<p>Summary: </p>
+					<br>
+              		<p>Link: </p>
+            	</div>
+            	<div class="card-action">
+              		<a href="#">Comment</a>
+              
+            	</div>
+			</div>
+       </div>
+   </div>
+	
+	<div class="row">
+        <div class="col s12">
+        	<div class="card blue darken-4">
+            	<div class="card-content white-text">
+              		<span class="card-title">Post Title</span>
+					<p>Summary: </p>
+					<br>
+              		<p>Link: </p>
+            	</div>
+            	<div class="card-action">
+              		<a href="#">Comment</a>
+              
+            	</div>
+			</div>
+       </div>
+   </div>
+	
+	<div class="row">
+        <div class="col s12">
+        	<div class="card blue darken-4">
+            	<div class="card-content white-text">
+              		<span class="card-title">Post Title</span>
+					<p>Summary: </p>
+					<br>
+              		<p>Link: </p>
+            	</div>
+            	<div class="card-action">
+              		<a href="#">Comment</a>
+              
+            	</div>
+			</div>
+       </div>
+   </div>
+	
+</div>
+
+<footer class="page-footer red accent-4">
+	<div class="container">
+    	<div class="row">
+        	<div class="col l6 s12">
+                <h5 class="white-text">About</h5>
+                <p class="grey-text text-lighten-4">This site scrapes the subreddit r/nba for its posts and uploads them here for you to comment on!</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                	<li><a class="grey-text text-lighten-3" href="https://www.reddit.com/r/nba/">reddit.com/r/nba</a></li>
+                	<li><a class="grey-text text-lighten-3" href="http://www.nba.com/#/">NBA.com</a></li>
+                </ul>
+            </div>
+        </div>
+	</div>
+    <div class="footer-copyright">
+    	<div class="container">
+            © /r/NBA Scraper
+        </div>
+    </div>
+</footer>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+ <script type="text/javascript">
+ 	$(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    	$('.modal').modal();
+	});
+</script>
+</body>
+</html>

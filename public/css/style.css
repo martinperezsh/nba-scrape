@@ -1,0 +1,20 @@
+body {
+	background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Basketball-Court-Wallpaper-Widescreen.jpg);
+	background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;	
+	
+}
+
+nav {
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+.nav-wrapper {
+	padding-top: 15px;
+}
+
+h1 {
+	text-align: center;
+}
